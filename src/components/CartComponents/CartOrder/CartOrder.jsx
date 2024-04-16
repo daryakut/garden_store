@@ -28,7 +28,7 @@ export default function CartOrder({ basketCart }) {
     }
 
     try {
-      const response = await fetch(`${BASE_URL}/order/send`, {
+      const response = await fetch(`${BASE_URL}order/send`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
