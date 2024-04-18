@@ -206,7 +206,7 @@
 
 @media (max-width: 720px) {
   .header__navigation {
-    position: absolute;
+    position: fixed;
     top: 8rem;
     right: 0;
     display: flex;
